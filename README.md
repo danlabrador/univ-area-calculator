@@ -1,26 +1,27 @@
 # Area Calculator Application
-This Java application, titled "Area Calculator," is designed to calculate the areas of various shapes. It features a graphical user interface for user interaction. The application currently supports calculations for rectangles and triangles.
+
+This Java application, titled "Area Calculator," is developed in NetBeans and designed to calculate the areas of various shapes. It incorporates a user-friendly graphical interface, enabling users to interact with the application seamlessly. The current version supports area calculations for rectangles and triangles.
 
 ## Table of Contents
-2. [Files Description](#files-description)
-3. [How to Run](#how-to-run)
-4. [Contributing](#contributing)
-5. [License](#license)
-
+1. [Files Description](#files-description)
+2. [How to Run in NetBeans](#how-to-run-in-netbeans)
+3. [Contributing](#contributing)
+4. [License](#license)
 
 ### Files Description
-- **Main.form & Main.java**: These files define the GUI components and the main entry point of the application.
-- **Shape.java**: An abstract class representing a general shape.
-- **Rectangle.java**: A class extending `Shape`, specific to rectangles. It includes methods to calculate the area and manage rectangle properties.
-- **Triangle.java**: Similar to `Rectangle.java`, this class is tailored for triangle shapes and includes relevant methods to calculate the area and manage the triangle properties.
+- **Main.form & Main.java**: These files constitute the backbone of the application, defining the GUI components and the main entry point. They are primarily used for setting up the user interface and integrating the functionality of different shapes.
+- **Shape.java**: This abstract class serves as a template for various shapes, encapsulating common attributes and methods.
+- **Rectangle.java**: Derived from `Shape`, this class is tailored for handling rectangles. It includes methods for calculating the area and managing rectangle-specific properties.
+- **Triangle.java**: Analogous to `Rectangle.java`, this class is dedicated to triangles, equipped with methods for area calculation and triangle-specific property management.
 
-### How to Run
-1. Ensure you have Java installed on your system.
-2. Compile the Java files. You can use a command like `javac *.java` in the directory containing the source files.
-3. Run the application using `java Main`.
+### How to Run in NetBeans
+1. Open NetBeans and import the project.
+2. Ensure Java SDK is properly set up in your NetBeans environment.
+3. Navigate to the project directory and compile the Java files. In NetBeans, this can usually be done via the 'Build' option.
+4. Run the application by selecting 'Run Main.java' from the context menu or the Run menu in NetBeans.
 
 ### Contributing
-Contributions to this project are welcome. Please follow standard procedures for contributing to Java projects, including writing clear code and documenting any changes or additions.
+We encourage contributions to enhance and expand the functionality of this project. Adhere to standard Java development practices, including clear coding standards and comprehensive documentation for any modifications or additions.
 
 ### License
 MIT License
